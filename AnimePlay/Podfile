@@ -1,0 +1,31 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.0'
+inhibit_all_warnings!
+
+target 'AnimePlay' do
+
+  pod 'AFNetworking'
+  pod 'SDWebImage'
+  pod 'SDWebImageWebPCoder'
+  pod 'MJExtension'
+  pod 'MJRefresh'
+  # 布局
+  pod 'Masonry'
+  # UI 组件
+  pod 'SDCycleScrollView'
+  pod 'FSTextView'
+  pod 'JXCategoryView', '1.5.3'
+  pod 'JXPagingView/Pager'
+
+  pod 'MLLabel'
+
+  pod 'YYModel'
+
+  # 倒计时按钮
+  pod 'JKCountDownButton'
+  
+  
+  pod 'IQKeyboardManager'
+  
+
+end

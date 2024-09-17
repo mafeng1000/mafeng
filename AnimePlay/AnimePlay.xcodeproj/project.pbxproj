@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B3D91B52C95C6AB00D85549 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D91B42C95C6AB00D85549 /* AppDelegate.m */; };
+		4B3D91BB2C95C6AB00D85549 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D91BA2C95C6AB00D85549 /* ViewController.m */; };
+		4B3D91BE2C95C6AB00D85549 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D91BD2C95C6AB00D85549 /* Base */; };
+		4B3D91C02C95C6AD00D85549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D91BF2C95C6AD00D85549 /* Assets.xcassets */; };
+		4B3D91C32C95C6AD00D85549 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D91C22C95C6AD00D85549 /* Base */; };
+		4B3D91C62C95C6AD00D85549 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D91C52C95C6AD00D85549 /* main.m */; };
+		4B3D91DE2C99A23200D85549 /* HTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D91DD2C99A23200D85549 /* HTBaseViewController.m */; };
+		4B3D91E12C99A24D00D85549 /* HTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D91E02C99A24D00D85549 /* HTColor.m */; };
+		4B3D91EE2C99A9BC00D85549 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D91ED2C99A9BC00D85549 /* InfoPlist.strings */; };
+		4B3D91F32C99A9C900D85549 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D91F22C99A9C900D85549 /* Localizable.strings */; };
+		D88F9A7176034C704F71F330 /* libPods-AnimePlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C29DAE29ECDD15F50A67E551 /* libPods-AnimePlay.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B3D91B02C95C6AB00D85549 /* AnimePlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimePlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3D91B32C95C6AB00D85549 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B3D91B42C95C6AB00D85549 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B3D91B92C95C6AB00D85549 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4B3D91BA2C95C6AB00D85549 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B3D91BD2C95C6AB00D85549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B3D91BF2C95C6AD00D85549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B3D91C22C95C6AD00D85549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B3D91C42C95C6AD00D85549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3D91C52C95C6AD00D85549 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B3D91DA2C99A09E00D85549 /* AnimePrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimePrefixHeader.pch; sourceTree = "<group>"; };
+		4B3D91DC2C99A23200D85549 /* HTBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTBaseViewController.h; sourceTree = "<group>"; };
+		4B3D91DD2C99A23200D85549 /* HTBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTBaseViewController.m; sourceTree = "<group>"; };
+		4B3D91DF2C99A24D00D85549 /* HTColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTColor.h; sourceTree = "<group>"; };
+		4B3D91E02C99A24D00D85549 /* HTColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTColor.m; sourceTree = "<group>"; };
+		4B3D91E22C99A37400D85549 /* HTCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTCommonDefine.h; sourceTree = "<group>"; };
+		4B3D91E32C99A7E000D85549 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		4B3D91E42C99A7E000D85549 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4B3D91E52C99A83300D85549 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/Main.strings"; sourceTree = "<group>"; };
+		4B3D91E62C99A83300D85549 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		4B3D91EC2C99A9BC00D85549 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B3D91F02C99A9C000D85549 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B3D91F12C99A9C900D85549 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4B3D91F52C99A9CB00D85549 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8DC50FC8A021154DF8FA8BC6 /* Pods-AnimePlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimePlay.release.xcconfig"; path = "Target Support Files/Pods-AnimePlay/Pods-AnimePlay.release.xcconfig"; sourceTree = "<group>"; };
+		C29DAE29ECDD15F50A67E551 /* libPods-AnimePlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnimePlay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3A356ABF22AC872EB58369 /* Pods-AnimePlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimePlay.debug.xcconfig"; path = "Target Support Files/Pods-AnimePlay/Pods-AnimePlay.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B3D91AD2C95C6AB00D85549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88F9A7176034C704F71F330 /* libPods-AnimePlay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36B01405B9ED94D450FCB787 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE3A356ABF22AC872EB58369 /* Pods-AnimePlay.debug.xcconfig */,
+				8DC50FC8A021154DF8FA8BC6 /* Pods-AnimePlay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B3D91A72C95C6AB00D85549 = {
+			isa = PBXGroup;
+			children = (
+				4B3D91B22C95C6AB00D85549 /* AnimePlay */,
+				4B3D91B12C95C6AB00D85549 /* Products */,
+				36B01405B9ED94D450FCB787 /* Pods */,
+				BEEC79522B1854B94F182AC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B3D91B12C95C6AB00D85549 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B3D91B02C95C6AB00D85549 /* AnimePlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B3D91B22C95C6AB00D85549 /* AnimePlay */ = {
+			isa = PBXGroup;
+			children = (
+				4B3D91E72C99A91700D85549 /* Language */,
+				4B3D91D62C999F1C00D85549 /* Anime */,
+				4B3D91B32C95C6AB00D85549 /* AppDelegate.h */,
+				4B3D91B42C95C6AB00D85549 /* AppDelegate.m */,
+				4B3D91B92C95C6AB00D85549 /* ViewController.h */,
+				4B3D91BA2C95C6AB00D85549 /* ViewController.m */,
+				4B3D91BC2C95C6AB00D85549 /* Main.storyboard */,
+				4B3D91BF2C95C6AD00D85549 /* Assets.xcassets */,
+				4B3D91C12C95C6AD00D85549 /* LaunchScreen.storyboard */,
+				4B3D91C42C95C6AD00D85549 /* Info.plist */,
+				4B3D91C52C95C6AD00D85549 /* main.m */,
+				4B3D91DA2C99A09E00D85549 /* AnimePrefixHeader.pch */,
+			);
+			path = AnimePlay;
+			sourceTree = "<group>";
+		};
+		4B3D91CD2C999F1C00D85549 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B3D91DC2C99A23200D85549 /* HTBaseViewController.h */,
+				4B3D91DD2C99A23200D85549 /* HTBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4B3D91CE2C999F1C00D85549 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4B3D91CD2C999F1C00D85549 /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4B3D91CF2C999F1C00D85549 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4B3D91D02C999F1C00D85549 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		4B3D91D12C999F1C00D85549 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4B3D91D22C999F1C00D85549 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				4B3D91DB2C99A1CE00D85549 /* Color */,
+				4B3D91E22C99A37400D85549 /* HTCommonDefine.h */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		4B3D91D32C999F1C00D85549 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4B3D91D42C999F1C00D85549 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4B3D91D52C999F1C00D85549 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		4B3D91D62C999F1C00D85549 /* Anime */ = {
+			isa = PBXGroup;
+			children = (
+				4B3D91CE2C999F1C00D85549 /* Base */,
+				4B3D91CF2C999F1C00D85549 /* Category */,
+				4B3D91D02C999F1C00D85549 /* Constant */,
+				4B3D91D12C999F1C00D85549 /* Modules */,
+				4B3D91D22C999F1C00D85549 /* Others */,
+				4B3D91D32C999F1C00D85549 /* Resource */,
+				4B3D91D42C999F1C00D85549 /* Service */,
+				4B3D91D52C999F1C00D85549 /* Tabbar */,
+			);
+			path = Anime;
+			sourceTree = "<group>";
+		};
+		4B3D91DB2C99A1CE00D85549 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				4B3D91DF2C99A24D00D85549 /* HTColor.h */,
+				4B3D91E02C99A24D00D85549 /* HTColor.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		4B3D91E72C99A91700D85549 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				4B3D91ED2C99A9BC00D85549 /* InfoPlist.strings */,
+				4B3D91F22C99A9C900D85549 /* Localizable.strings */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		BEEC79522B1854B94F182AC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C29DAE29ECDD15F50A67E551 /* libPods-AnimePlay.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B3D91AF2C95C6AB00D85549 /* AnimePlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3D91C92C95C6AD00D85549 /* Build configuration list for PBXNativeTarget "AnimePlay" */;
+			buildPhases = (
+				6030CC3C2CAD8672F0E8561F /* [CP] Check Pods Manifest.lock */,
+				4B3D91AC2C95C6AB00D85549 /* Sources */,
+				4B3D91AD2C95C6AB00D85549 /* Frameworks */,
+				4B3D91AE2C95C6AB00D85549 /* Resources */,
+				A77EA3B44E7B67096AF1F613 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimePlay;
+			productName = AnimePlay;
+			productReference = 4B3D91B02C95C6AB00D85549 /* AnimePlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B3D91A82C95C6AB00D85549 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					4B3D91AF2C95C6AB00D85549 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 4B3D91AB2C95C6AB00D85549 /* Build configuration list for PBXProject "AnimePlay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				"en-AU",
+			);
+			mainGroup = 4B3D91A72C95C6AB00D85549;
+			productRefGroup = 4B3D91B12C95C6AB00D85549 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B3D91AF2C95C6AB00D85549 /* AnimePlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B3D91AE2C95C6AB00D85549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3D91F32C99A9C900D85549 /* Localizable.strings in Resources */,
+				4B3D91C02C95C6AD00D85549 /* Assets.xcassets in Resources */,
+				4B3D91EE2C99A9BC00D85549 /* InfoPlist.strings in Resources */,
+				4B3D91C32C95C6AD00D85549 /* Base in Resources */,
+				4B3D91BE2C95C6AB00D85549 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6030CC3C2CAD8672F0E8561F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimePlay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A77EA3B44E7B67096AF1F613 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimePlay/Pods-AnimePlay-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimePlay/Pods-AnimePlay-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimePlay/Pods-AnimePlay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B3D91AC2C95C6AB00D85549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3D91BB2C95C6AB00D85549 /* ViewController.m in Sources */,
+				4B3D91B52C95C6AB00D85549 /* AppDelegate.m in Sources */,
+				4B3D91C62C95C6AD00D85549 /* main.m in Sources */,
+				4B3D91DE2C99A23200D85549 /* HTBaseViewController.m in Sources */,
+				4B3D91E12C99A24D00D85549 /* HTColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B3D91BC2C95C6AB00D85549 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3D91BD2C95C6AB00D85549 /* Base */,
+				4B3D91E32C99A7E000D85549 /* es */,
+				4B3D91E52C99A83300D85549 /* en-AU */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B3D91C12C95C6AD00D85549 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3D91C22C95C6AD00D85549 /* Base */,
+				4B3D91E42C99A7E000D85549 /* es */,
+				4B3D91E62C99A83300D85549 /* en-AU */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4B3D91ED2C99A9BC00D85549 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3D91EC2C99A9BC00D85549 /* en */,
+				4B3D91F02C99A9C000D85549 /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4B3D91F22C99A9C900D85549 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3D91F12C99A9C900D85549 /* en */,
+				4B3D91F52C99A9CB00D85549 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B3D91C72C95C6AD00D85549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B3D91C82C95C6AD00D85549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B3D91CA2C95C6AD00D85549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3A356ABF22AC872EB58369 /* Pods-AnimePlay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREFIX_HEADER = "/Users/Zhuanz/Desktop/兼职2/AnimePlay/AnimePlay/AnimePrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimePlay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = anim.com.play.AnimePlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B3D91CB2C95C6AD00D85549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DC50FC8A021154DF8FA8BC6 /* Pods-AnimePlay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREFIX_HEADER = "/Users/Zhuanz/Desktop/兼职2/AnimePlay/AnimePlay/AnimePrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimePlay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = anim.com.play.AnimePlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B3D91AB2C95C6AB00D85549 /* Build configuration list for PBXProject "AnimePlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3D91C72C95C6AD00D85549 /* Debug */,
+				4B3D91C82C95C6AD00D85549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3D91C92C95C6AD00D85549 /* Build configuration list for PBXNativeTarget "AnimePlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3D91CA2C95C6AD00D85549 /* Debug */,
+				4B3D91CB2C95C6AD00D85549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B3D91A82C95C6AB00D85549 /* Project object */;
+}

@@ -1,0 +1,21 @@
+//
+//  AnimePrefixHeader.pch
+//  AnimePlay
+//
+//  Created by MAC on 2024/9/17.
+//
+
+#ifndef AnimePrefixHeader_h
+#define AnimePrefixHeader_h
+
+
+#import <SDWebImageManager.h>
+#import <UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import <SDWebImage/SDWebImageDownloader.h>
+#import <SDWebImage/SDImageCache.h>
+#import "HTColor.h"
+#import "HTCommonDefine.h"
+
+
+#endif /* AnimePrefixHeader_h */
