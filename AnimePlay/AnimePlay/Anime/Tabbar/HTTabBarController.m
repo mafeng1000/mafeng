@@ -58,11 +58,11 @@
 - (void)setTabBar {
     /**** 添加子控制器 ****/
 //    [self setValue:[[CustomTabBar alloc] init] forKeyPath:@"tabBar"];
-    [self setupOneChildViewController:[[HTHomeRootViewController alloc] init] title:@"首页" image:@"home_nor" selectedImage:@"home_select"];
-    [self setupOneChildViewController:[[HTBrowseViewController alloc] init] title:@"视频诊断" image:@"browse_nor" selectedImage:@"browse_select"];
+    [self setupOneChildViewController:[[HTHomeRootViewController alloc] init] title:@"Home".ht_localized image:@"home_nor" selectedImage:@"home_select"];
+    [self setupOneChildViewController:[[HTBrowseViewController alloc] init] title:@"Browse".ht_localized image:@"browse_nor" selectedImage:@"browse_select"];
 //    // QiuZhuViewController
-    [self setupOneChildViewController:[[HTMyLibraryViewController alloc] init] title:@"回顾/提升" image:@"myLibrary_nor" selectedImage:@"myLibrary_select"];
-    [self setupOneChildViewController:[[HTPremiumViewController alloc] init] title:@"我的" image:@"premium_nor" selectedImage:@"premium_select"];
+    [self setupOneChildViewController:[[HTMyLibraryViewController alloc] init] title:@"Library".ht_localized image:@"myLibrary_nor" selectedImage:@"myLibrary_select"];
+    [self setupOneChildViewController:[[HTPremiumViewController alloc] init] title:@"Premium".ht_localized image:@"premium_nor" selectedImage:@"premium_select"];
 }
 
 - (void)setupOneChildViewController:(UIViewController *)vc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage {

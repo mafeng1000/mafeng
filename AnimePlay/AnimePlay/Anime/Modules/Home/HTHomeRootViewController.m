@@ -6,6 +6,11 @@
 //
 
 #import "HTHomeRootViewController.h"
+#import "THHomeViewController.h"
+#import "THHomeVideoViewController.h"
+#import "THHomeIPTVViewController.h"
+#import "THHomeCartoonViewController.h"
+
 
 @interface HTHomeRootViewController ()
 
@@ -16,16 +21,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+//    [HTNetworkingTool getWithUrl:@"264" params:@{} success:^(NSURLSessionDataTask * _Nullable task, id  _Nullable responseObject) {
+//        
+//        } failed:^(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error, id  _Nullable responseObject) {
+//                
+//        } IsNeedHub:YES];
+
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [HTNetworkingTool postWithUrl:@"264/" params:@{@"id":@"3003138",@"p1":@"3",@"i1":@"0",@"g1":@"3",@"apns_id":@""} success:^(NSURLSessionDataTask * _Nullable task, id  _Nullable responseObject) {
+        
+    } failed:^(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error, id  _Nullable responseObject) {
+        
+    } IsNeedHub:YES];
+    
 }
-*/
+
 
 @end

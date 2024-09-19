@@ -8,6 +8,18 @@
 #import <Foundation/Foundation.h>
 #import <AFNetworking.h>
 #import "HTTools.h"
+#define HT_CONFIG_DOMIAN       @"http://www.devapitest.top/"
+#define HT_CONFIG_DOMIAN_default       @""
+//http://www.devapitest.top/264/
+
+//#define HT_CONFIG_DOMIAN_default       @"2313725-1928539-default/"
+
+//http://www.devapitest.top/264/
+
+//80:   http://www.devapitest.top/
+//81:   http://www.devapitest.top:81/
+
+#define HT_CONFIG_app_id       @"93"//app编号，测试用96  93
 
 
 //请求成功的回调block

@@ -13,6 +13,8 @@
 #define HT_SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
 #define HT_SCREEN_SCALE ([UIScreen mainScreen].scale)
 
+// MARK: 快速创建String
+#define HTString(...) [NSString stringWithFormat:__VA_ARGS__]
 
 #pragma mark - System Version
 

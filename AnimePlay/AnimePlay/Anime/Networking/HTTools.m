@@ -11,42 +11,42 @@
 #pragma mark - MBProgressHUD
 + (void)showHud
 {
-//    [MBProgressHUD showMessage:@"" ToView:nil];
+    [MBProgressHUD showMessage:@"" ToView:nil];
 }
 + (void)showText:(NSString *)text{
-//    [MBProgressHUD showMessage:text ToView:nil];
+    [MBProgressHUD showMessage:text ToView:nil];
 }
 + (void)showText:(NSString *)text delay:(NSTimeInterval)dalay
 {
-//    [MBProgressHUD showMessage:text ToView:nil RemainTime:dalay];
+    [MBProgressHUD showMessage:text ToView:nil RemainTime:dalay];
 }
 + (void)showTextHud:(NSString *)text
 {
-//    [MBProgressHUD showMessage:text ToView:nil];
+    [MBProgressHUD showMessage:text ToView:nil];
 }
 + (void)showOKHud:(NSString *)text
 {
-//    [MBProgressHUD showSuccess:text ToView:nil delay:1.5];
+    [MBProgressHUD showSuccess:text ToView:nil delay:1.5];
 }
 + (void)showOKHud:(NSString *)text delay:(NSTimeInterval)dalay
 {
-//    [MBProgressHUD showSuccess:text ToView:nil delay:dalay];
+    [MBProgressHUD showSuccess:text ToView:nil delay:dalay];
 }
 + (void)showNOHud:(NSString *)text
 {
-//    [MBProgressHUD showError:text ToView:nil delay:1.5];
+    [MBProgressHUD showError:text ToView:nil delay:1.5];
 }
 + (void)showNOHud:(NSString *)text delay:(NSTimeInterval)dalay
 {
-//    [MBProgressHUD showError:text ToView:nil delay:dalay];
+    [MBProgressHUD showError:text ToView:nil delay:dalay];
 }
 + (void)showAnimated:(NSString *)imageName Text:(NSString *)text delay:(NSTimeInterval)dalay
 {
-//    [MBProgressHUD showCustomIcon:imageName Title:text ToView:nil delay:dalay];
+    [MBProgressHUD showCustomIcon:imageName Title:text ToView:nil delay:dalay];
 }
 + (void)hideHud
 {
-//    [MBProgressHUD hideHUD];
+    [MBProgressHUD hideHUD];
 }
 + (void)jiexierrrorwitherror:(NSError *)error{
 //    NSDictionary *response;

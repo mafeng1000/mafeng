@@ -26,6 +26,9 @@ target 'AnimePlay' do
   
   
   pod 'IQKeyboardManager'
-  
+  pod 'MBProgressHUD'
+  pod 'OC_CWCarousel'
+
+#  pod search OC_CWCarousel
 
 end

@@ -32,9 +32,11 @@ PODS:
   - libwebp/webp (1.3.2):
     - libwebp/sharpyuv
   - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
   - MJExtension (3.4.2)
   - MJRefresh (3.7.9)
   - MLLabel (1.10.5)
+  - OC_CWCarousel (1.1.9)
   - SDCycleScrollView (1.82):
     - SDWebImage (>= 5.0.0)
   - SDWebImage (5.19.7):
@@ -53,9 +55,11 @@ DEPENDENCIES:
   - JXCategoryView (= 1.5.3)
   - JXPagingView/Pager
   - Masonry
+  - MBProgressHUD
   - MJExtension
   - MJRefresh
   - MLLabel
+  - OC_CWCarousel
   - SDCycleScrollView
   - SDWebImage
   - SDWebImageWebPCoder
@@ -71,9 +75,11 @@ SPEC REPOS:
     - JXPagingView
     - libwebp
     - Masonry
+    - MBProgressHUD
     - MJExtension
     - MJRefresh
     - MLLabel
+    - OC_CWCarousel
     - SDCycleScrollView
     - SDWebImage
     - SDWebImageWebPCoder
@@ -88,14 +94,16 @@ SPEC CHECKSUMS:
   JXPagingView: afdd2e9af09c90160dd232b970d603cc6e7ddd0e
   libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJExtension: e97d164cb411aa9795cf576093a1fa208b4a8dd8
   MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
   MLLabel: d76124055a2205e7f76878e62cd06ba925ba0c97
+  OC_CWCarousel: 6a10b8ceb0f7a3f69936c579cf90e6abdcff633d
   SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
   SDWebImage: 8a6b7b160b4d710e2a22b6900e25301075c34cb3
   SDWebImageWebPCoder: e38c0a70396191361d60c092933e22c20d5b1380
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: f445b881269271176d07435c72f5220982ecb2db
+PODFILE CHECKSUM: 04f0d6dfc0cae8fc558c242f547042fe7267695d
 
 COCOAPODS: 1.15.2
