@@ -22,6 +22,17 @@
     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
 #define HT_IOS_SYSTEM_VERSION_LESS_THAN(v)                                                                             \
     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+/**-------颜色--------*/
+#define HTUIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define HTUIColorWithRGB(r,g,b,a) [UIColor colorWithRed:r/255.f green:g/255.f blue:b/255.f alpha:a]
+#define HTRGB(R,G,B)  [UIColor colorWithRed:(R * 1.0) / 255.0 green:(G * 1.0) / 255.0 blue:(B * 1.0) / 255.0 alpha:1.0]
+#define HTRGBA(R,G,B,A)  [UIColor colorWithRed:(R * 1.0) / 255.0 green:(G * 1.0) / 255.0 blue:(B * 1.0) / 255.0 alpha:A]
+
+#define HTMainColor HTUIColorFromRGB(0xFFFFFF)
+#define HTMainTextColor HTUIColorFromRGB(0x393939)
+#define HTMainSelectTextColor HTUIColorFromRGB(0xFF6C3C)
+
+
 
 
 #endif /* HTCommonDefine_h */

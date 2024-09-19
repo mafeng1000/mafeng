@@ -14,10 +14,28 @@
 		4B3D91C32C95C6AD00D85549 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D91C22C95C6AD00D85549 /* Base */; };
 		4B3D91C62C95C6AD00D85549 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D91C52C95C6AD00D85549 /* main.m */; };
 		4B3D91DE2C99A23200D85549 /* HTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D91DD2C99A23200D85549 /* HTBaseViewController.m */; };
-		4B3D91E12C99A24D00D85549 /* HTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D91E02C99A24D00D85549 /* HTColor.m */; };
 		4B3D91EE2C99A9BC00D85549 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D91ED2C99A9BC00D85549 /* InfoPlist.strings */; };
 		4B3D91F32C99A9C900D85549 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D91F22C99A9C900D85549 /* Localizable.strings */; };
 		D88F9A7176034C704F71F330 /* libPods-AnimePlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C29DAE29ECDD15F50A67E551 /* libPods-AnimePlay.a */; };
+		FC1D3CC02C9AA3D600770380 /* HTHomeRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3CBF2C9AA3D600770380 /* HTHomeRootViewController.m */; };
+		FC1D3CC32C9AA3FD00770380 /* HTBrowseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3CC22C9AA3FD00770380 /* HTBrowseViewController.m */; };
+		FC1D3CC62C9AA41600770380 /* HTMyLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3CC52C9AA41600770380 /* HTMyLibraryViewController.m */; };
+		FC1D3CC92C9AA42F00770380 /* HTPremiumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3CC82C9AA42F00770380 /* HTPremiumViewController.m */; };
+		FC1D3CCC2C9AA47900770380 /* HTCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3CCB2C9AA47900770380 /* HTCustomTabBar.m */; };
+		FC1D3CCF2C9AA4A200770380 /* HTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3CCE2C9AA4A200770380 /* HTTabBarController.m */; };
+		FC1D3CD22C9AA95900770380 /* HTNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3CD12C9AA95900770380 /* HTNavigationViewController.m */; };
+		FC1D3CD62C9AA9DA00770380 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3CD52C9AA9DA00770380 /* UIImage+Category.m */; };
+		FC1D3D632C9AC77500770380 /* HTNetworkingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3D622C9AC77500770380 /* HTNetworkingTool.m */; };
+		FC1D3D662C9AC8BD00770380 /* HTTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3D652C9AC8BD00770380 /* HTTools.m */; };
+		FC1D3D6A2C9ACB0000770380 /* HTVideoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3D692C9ACB0000770380 /* HTVideoTool.m */; };
+		FC1D3D6D2C9ACE9100770380 /* HTFullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3D6C2C9ACE9100770380 /* HTFullViewController.m */; };
+		FC1D3D702C9AD00800770380 /* HTPlayerFailedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3D6F2C9AD00800770380 /* HTPlayerFailedView.m */; };
+		FC1D3D732C9AD0D500770380 /* HTPlayerLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3D722C9AD0D500770380 /* HTPlayerLayerView.m */; };
+		FC1D3D762C9AD13000770380 /* HTPlayerTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3D752C9AD13000770380 /* HTPlayerTitleView.m */; };
+		FC1D3D792C9AD21100770380 /* HTPlayerToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3D782C9AD21100770380 /* HTPlayerToolView.m */; };
+		FC1D3D7C2C9AD24F00770380 /* HTProgressSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3D7B2C9AD24F00770380 /* HTProgressSlider.m */; };
+		FC1D3D7F2C9AD28A00770380 /* HTVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3D7E2C9AD28A00770380 /* HTVideoModel.m */; };
+		FC1D3D822C9AD4D200770380 /* HTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D3D812C9AD4D200770380 /* HTPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +52,6 @@
 		4B3D91DA2C99A09E00D85549 /* AnimePrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimePrefixHeader.pch; sourceTree = "<group>"; };
 		4B3D91DC2C99A23200D85549 /* HTBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTBaseViewController.h; sourceTree = "<group>"; };
 		4B3D91DD2C99A23200D85549 /* HTBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTBaseViewController.m; sourceTree = "<group>"; };
-		4B3D91DF2C99A24D00D85549 /* HTColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTColor.h; sourceTree = "<group>"; };
-		4B3D91E02C99A24D00D85549 /* HTColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTColor.m; sourceTree = "<group>"; };
 		4B3D91E22C99A37400D85549 /* HTCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTCommonDefine.h; sourceTree = "<group>"; };
 		4B3D91E32C99A7E000D85549 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		4B3D91E42C99A7E000D85549 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -48,6 +64,44 @@
 		8DC50FC8A021154DF8FA8BC6 /* Pods-AnimePlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimePlay.release.xcconfig"; path = "Target Support Files/Pods-AnimePlay/Pods-AnimePlay.release.xcconfig"; sourceTree = "<group>"; };
 		C29DAE29ECDD15F50A67E551 /* libPods-AnimePlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnimePlay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3A356ABF22AC872EB58369 /* Pods-AnimePlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimePlay.debug.xcconfig"; path = "Target Support Files/Pods-AnimePlay/Pods-AnimePlay.debug.xcconfig"; sourceTree = "<group>"; };
+		FC1D3CBE2C9AA3D600770380 /* HTHomeRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTHomeRootViewController.h; sourceTree = "<group>"; };
+		FC1D3CBF2C9AA3D600770380 /* HTHomeRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTHomeRootViewController.m; sourceTree = "<group>"; };
+		FC1D3CC12C9AA3FD00770380 /* HTBrowseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTBrowseViewController.h; sourceTree = "<group>"; };
+		FC1D3CC22C9AA3FD00770380 /* HTBrowseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTBrowseViewController.m; sourceTree = "<group>"; };
+		FC1D3CC42C9AA41600770380 /* HTMyLibraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMyLibraryViewController.h; sourceTree = "<group>"; };
+		FC1D3CC52C9AA41600770380 /* HTMyLibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMyLibraryViewController.m; sourceTree = "<group>"; };
+		FC1D3CC72C9AA42F00770380 /* HTPremiumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTPremiumViewController.h; sourceTree = "<group>"; };
+		FC1D3CC82C9AA42F00770380 /* HTPremiumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTPremiumViewController.m; sourceTree = "<group>"; };
+		FC1D3CCA2C9AA47900770380 /* HTCustomTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTCustomTabBar.h; sourceTree = "<group>"; };
+		FC1D3CCB2C9AA47900770380 /* HTCustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTCustomTabBar.m; sourceTree = "<group>"; };
+		FC1D3CCD2C9AA4A200770380 /* HTTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTabBarController.h; sourceTree = "<group>"; };
+		FC1D3CCE2C9AA4A200770380 /* HTTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTabBarController.m; sourceTree = "<group>"; };
+		FC1D3CD02C9AA95900770380 /* HTNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTNavigationViewController.h; sourceTree = "<group>"; };
+		FC1D3CD12C9AA95900770380 /* HTNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTNavigationViewController.m; sourceTree = "<group>"; };
+		FC1D3CD42C9AA9DA00770380 /* UIImage+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		FC1D3CD52C9AA9DA00770380 /* UIImage+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		FC1D3D612C9AC77500770380 /* HTNetworkingTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTNetworkingTool.h; sourceTree = "<group>"; };
+		FC1D3D622C9AC77500770380 /* HTNetworkingTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTNetworkingTool.m; sourceTree = "<group>"; };
+		FC1D3D642C9AC8BD00770380 /* HTTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTools.h; sourceTree = "<group>"; };
+		FC1D3D652C9AC8BD00770380 /* HTTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTools.m; sourceTree = "<group>"; };
+		FC1D3D682C9ACB0000770380 /* HTVideoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTVideoTool.h; sourceTree = "<group>"; };
+		FC1D3D692C9ACB0000770380 /* HTVideoTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTVideoTool.m; sourceTree = "<group>"; };
+		FC1D3D6B2C9ACE9100770380 /* HTFullViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTFullViewController.h; sourceTree = "<group>"; };
+		FC1D3D6C2C9ACE9100770380 /* HTFullViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTFullViewController.m; sourceTree = "<group>"; };
+		FC1D3D6E2C9AD00800770380 /* HTPlayerFailedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTPlayerFailedView.h; sourceTree = "<group>"; };
+		FC1D3D6F2C9AD00800770380 /* HTPlayerFailedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTPlayerFailedView.m; sourceTree = "<group>"; };
+		FC1D3D712C9AD0D500770380 /* HTPlayerLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTPlayerLayerView.h; sourceTree = "<group>"; };
+		FC1D3D722C9AD0D500770380 /* HTPlayerLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTPlayerLayerView.m; sourceTree = "<group>"; };
+		FC1D3D742C9AD13000770380 /* HTPlayerTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTPlayerTitleView.h; sourceTree = "<group>"; };
+		FC1D3D752C9AD13000770380 /* HTPlayerTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTPlayerTitleView.m; sourceTree = "<group>"; };
+		FC1D3D772C9AD21100770380 /* HTPlayerToolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTPlayerToolView.h; sourceTree = "<group>"; };
+		FC1D3D782C9AD21100770380 /* HTPlayerToolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTPlayerToolView.m; sourceTree = "<group>"; };
+		FC1D3D7A2C9AD24F00770380 /* HTProgressSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTProgressSlider.h; sourceTree = "<group>"; };
+		FC1D3D7B2C9AD24F00770380 /* HTProgressSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTProgressSlider.m; sourceTree = "<group>"; };
+		FC1D3D7D2C9AD28A00770380 /* HTVideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTVideoModel.h; sourceTree = "<group>"; };
+		FC1D3D7E2C9AD28A00770380 /* HTVideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTVideoModel.m; sourceTree = "<group>"; };
+		FC1D3D802C9AD4D200770380 /* HTPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTPlayerView.h; sourceTree = "<group>"; };
+		FC1D3D812C9AD4D200770380 /* HTPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTPlayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,15 +175,10 @@
 			isa = PBXGroup;
 			children = (
 				4B3D91CD2C999F1C00D85549 /* Controller */,
+				FC1D3CD02C9AA95900770380 /* HTNavigationViewController.h */,
+				FC1D3CD12C9AA95900770380 /* HTNavigationViewController.m */,
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		4B3D91CF2C999F1C00D85549 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		4B3D91D02C999F1C00D85549 /* Constant */ = {
@@ -137,13 +186,6 @@
 			children = (
 			);
 			path = Constant;
-			sourceTree = "<group>";
-		};
-		4B3D91D12C999F1C00D85549 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Modules;
 			sourceTree = "<group>";
 		};
 		4B3D91D22C999F1C00D85549 /* Others */ = {
@@ -169,24 +211,19 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		4B3D91D52C999F1C00D85549 /* Tabbar */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tabbar;
-			sourceTree = "<group>";
-		};
 		4B3D91D62C999F1C00D85549 /* Anime */ = {
 			isa = PBXGroup;
 			children = (
+				FC1D3D672C9ACAB000770380 /* Video */,
+				FC1D3D602C9AC75F00770380 /* Networking */,
+				FC1D3CD32C9AA9BC00770380 /* Category */,
+				FC1D3CB92C9AA26600770380 /* Tabbar */,
+				FC1D3CB82C9AA24000770380 /* Modules */,
 				4B3D91CE2C999F1C00D85549 /* Base */,
-				4B3D91CF2C999F1C00D85549 /* Category */,
 				4B3D91D02C999F1C00D85549 /* Constant */,
-				4B3D91D12C999F1C00D85549 /* Modules */,
 				4B3D91D22C999F1C00D85549 /* Others */,
 				4B3D91D32C999F1C00D85549 /* Resource */,
 				4B3D91D42C999F1C00D85549 /* Service */,
-				4B3D91D52C999F1C00D85549 /* Tabbar */,
 			);
 			path = Anime;
 			sourceTree = "<group>";
@@ -194,8 +231,6 @@
 		4B3D91DB2C99A1CE00D85549 /* Color */ = {
 			isa = PBXGroup;
 			children = (
-				4B3D91DF2C99A24D00D85549 /* HTColor.h */,
-				4B3D91E02C99A24D00D85549 /* HTColor.m */,
 			);
 			path = Color;
 			sourceTree = "<group>";
@@ -215,6 +250,109 @@
 				C29DAE29ECDD15F50A67E551 /* libPods-AnimePlay.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC1D3CB82C9AA24000770380 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D3CBC2C9AA39F00770380 /* Browse */,
+				FC1D3CBD2C9AA39F00770380 /* Home */,
+				FC1D3CBB2C9AA39E00770380 /* MyLibrary */,
+				FC1D3CBA2C9AA39E00770380 /* Premium */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FC1D3CB92C9AA26600770380 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D3CCA2C9AA47900770380 /* HTCustomTabBar.h */,
+				FC1D3CCB2C9AA47900770380 /* HTCustomTabBar.m */,
+				FC1D3CCD2C9AA4A200770380 /* HTTabBarController.h */,
+				FC1D3CCE2C9AA4A200770380 /* HTTabBarController.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		FC1D3CBA2C9AA39E00770380 /* Premium */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D3CC72C9AA42F00770380 /* HTPremiumViewController.h */,
+				FC1D3CC82C9AA42F00770380 /* HTPremiumViewController.m */,
+			);
+			path = Premium;
+			sourceTree = "<group>";
+		};
+		FC1D3CBB2C9AA39E00770380 /* MyLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D3CC42C9AA41600770380 /* HTMyLibraryViewController.h */,
+				FC1D3CC52C9AA41600770380 /* HTMyLibraryViewController.m */,
+			);
+			path = MyLibrary;
+			sourceTree = "<group>";
+		};
+		FC1D3CBC2C9AA39F00770380 /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D3CC12C9AA3FD00770380 /* HTBrowseViewController.h */,
+				FC1D3CC22C9AA3FD00770380 /* HTBrowseViewController.m */,
+			);
+			path = Browse;
+			sourceTree = "<group>";
+		};
+		FC1D3CBD2C9AA39F00770380 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D3CBE2C9AA3D600770380 /* HTHomeRootViewController.h */,
+				FC1D3CBF2C9AA3D600770380 /* HTHomeRootViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FC1D3CD32C9AA9BC00770380 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D3CD42C9AA9DA00770380 /* UIImage+Category.h */,
+				FC1D3CD52C9AA9DA00770380 /* UIImage+Category.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FC1D3D602C9AC75F00770380 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D3D612C9AC77500770380 /* HTNetworkingTool.h */,
+				FC1D3D622C9AC77500770380 /* HTNetworkingTool.m */,
+				FC1D3D642C9AC8BD00770380 /* HTTools.h */,
+				FC1D3D652C9AC8BD00770380 /* HTTools.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FC1D3D672C9ACAB000770380 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D3D682C9ACB0000770380 /* HTVideoTool.h */,
+				FC1D3D692C9ACB0000770380 /* HTVideoTool.m */,
+				FC1D3D6B2C9ACE9100770380 /* HTFullViewController.h */,
+				FC1D3D6C2C9ACE9100770380 /* HTFullViewController.m */,
+				FC1D3D6E2C9AD00800770380 /* HTPlayerFailedView.h */,
+				FC1D3D6F2C9AD00800770380 /* HTPlayerFailedView.m */,
+				FC1D3D712C9AD0D500770380 /* HTPlayerLayerView.h */,
+				FC1D3D722C9AD0D500770380 /* HTPlayerLayerView.m */,
+				FC1D3D742C9AD13000770380 /* HTPlayerTitleView.h */,
+				FC1D3D752C9AD13000770380 /* HTPlayerTitleView.m */,
+				FC1D3D772C9AD21100770380 /* HTPlayerToolView.h */,
+				FC1D3D782C9AD21100770380 /* HTPlayerToolView.m */,
+				FC1D3D7A2C9AD24F00770380 /* HTProgressSlider.h */,
+				FC1D3D7B2C9AD24F00770380 /* HTProgressSlider.m */,
+				FC1D3D7D2C9AD28A00770380 /* HTVideoModel.h */,
+				FC1D3D7E2C9AD28A00770380 /* HTVideoModel.m */,
+				FC1D3D802C9AD4D200770380 /* HTPlayerView.h */,
+				FC1D3D812C9AD4D200770380 /* HTPlayerView.m */,
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,11 +473,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1D3CCC2C9AA47900770380 /* HTCustomTabBar.m in Sources */,
+				FC1D3CC92C9AA42F00770380 /* HTPremiumViewController.m in Sources */,
 				4B3D91BB2C95C6AB00D85549 /* ViewController.m in Sources */,
+				FC1D3D7C2C9AD24F00770380 /* HTProgressSlider.m in Sources */,
 				4B3D91B52C95C6AB00D85549 /* AppDelegate.m in Sources */,
+				FC1D3CD22C9AA95900770380 /* HTNavigationViewController.m in Sources */,
+				FC1D3CC32C9AA3FD00770380 /* HTBrowseViewController.m in Sources */,
+				FC1D3D822C9AD4D200770380 /* HTPlayerView.m in Sources */,
+				FC1D3D7F2C9AD28A00770380 /* HTVideoModel.m in Sources */,
+				FC1D3CCF2C9AA4A200770380 /* HTTabBarController.m in Sources */,
+				FC1D3D792C9AD21100770380 /* HTPlayerToolView.m in Sources */,
+				FC1D3D6A2C9ACB0000770380 /* HTVideoTool.m in Sources */,
+				FC1D3D662C9AC8BD00770380 /* HTTools.m in Sources */,
+				FC1D3D762C9AD13000770380 /* HTPlayerTitleView.m in Sources */,
 				4B3D91C62C95C6AD00D85549 /* main.m in Sources */,
+				FC1D3CC62C9AA41600770380 /* HTMyLibraryViewController.m in Sources */,
+				FC1D3D732C9AD0D500770380 /* HTPlayerLayerView.m in Sources */,
+				FC1D3D632C9AC77500770380 /* HTNetworkingTool.m in Sources */,
+				FC1D3CC02C9AA3D600770380 /* HTHomeRootViewController.m in Sources */,
 				4B3D91DE2C99A23200D85549 /* HTBaseViewController.m in Sources */,
-				4B3D91E12C99A24D00D85549 /* HTColor.m in Sources */,
+				FC1D3CD62C9AA9DA00770380 /* UIImage+Category.m in Sources */,
+				FC1D3D6D2C9ACE9100770380 /* HTFullViewController.m in Sources */,
+				FC1D3D702C9AD00800770380 /* HTPlayerFailedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,7 +669,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				GCC_PREFIX_HEADER = "/Users/Zhuanz/Desktop/兼职2/AnimePlay/AnimePlay/AnimePrefixHeader.pch";
+				GCC_PREFIX_HEADER = AnimePlay/AnimePrefixHeader.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AnimePlay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -542,7 +698,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				GCC_PREFIX_HEADER = "/Users/Zhuanz/Desktop/兼职2/AnimePlay/AnimePlay/AnimePrefixHeader.pch";
+				GCC_PREFIX_HEADER = AnimePlay/AnimePrefixHeader.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AnimePlay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

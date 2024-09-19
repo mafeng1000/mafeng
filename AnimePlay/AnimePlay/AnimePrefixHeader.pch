@@ -14,8 +14,10 @@
 #import <SDWebImage/UIButton+WebCache.h>
 #import <SDWebImage/SDWebImageDownloader.h>
 #import <SDWebImage/SDImageCache.h>
-#import "HTColor.h"
 #import "HTCommonDefine.h"
+#import "UIImage+Category.h"
+#import <Masonry.h>
+
 
 
 #endif /* AnimePrefixHeader_h */

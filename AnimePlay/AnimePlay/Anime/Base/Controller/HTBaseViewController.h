@@ -6,18 +6,27 @@
 //
 
 #import <UIKit/UIKit.h>
-typedef NS_ENUM(int, HTCustomNavigationTitleViewAlignment) {
-    /// 导航标题内容居左
-    HTCustomNavigationTitleViewAlignmentLeft = 0,
-    /// 导航标题内容居中
-    HTCustomNavigationTitleViewAlignmentCenter = 1
-};
 
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HTBaseViewController : UIViewController
 
+
+
+- (void)backItemClicked;
+
+- (void)ht_showNavBarBottomLine;
+- (void)ht_hideNavBarBottomLine;
+
+
+-(void)ht_setNagtionBarBgViewColor:(UIColor *)color;
+
+- (UIButton *)ht_rightButtonWithTitle:(NSString *)title
+                     andTitleColor:(UIColor *)titleColor
+                andImageNameString:(NSString *)imageName
+                         andTarget:(id)target
+                            action:(SEL)action;
 @end
 
 NS_ASSUME_NONNULL_END
